@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-    
+    <input type="text" name="" id="" />
     </>
   )
 }
