@@ -1,11 +1,16 @@
 import { useState } from 'react'
+import Book from './components/Book.jsx'
+import Form from './components/Form.jsx'
+import Nav from './components/Nav.jsx'
 import './App.css'
 
 function App() {
 
   return (
     <>
-    <input type="text" name="" id="" />
+     <Book />
+     <Form />
+     <Nav />
     </>
   )
 }
