@@ -1,7 +1,7 @@
 import "../App.css";
 function Form() {
-    const handleClick=()=>{
-        
+    const handleClick=(event)=>{
+        event.preventDefault();
     }
   return (
     <>
