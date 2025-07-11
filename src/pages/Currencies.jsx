@@ -1,7 +1,7 @@
 import getCurrencies from "../helpers/currencies.js";
 import { useEffect, useState } from "react";
 
-function CurrenciesPage() {
+function Currencies() {
   const [currencies, setCurrencies] = useState([]);
   useEffect(() => {
     const getData = async () => {
@@ -30,4 +30,4 @@ function CurrenciesPage() {
   );
 }
 
-export default CurrenciesPage;
+export default Currencies;

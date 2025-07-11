@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, Routes, Route } from "react-router-dom";
-import CurrenciesPage from "../pages/CurrenciesPage";
+import Currencies from "../pages/Currencies";
 
 function Navbar() {
   return (
