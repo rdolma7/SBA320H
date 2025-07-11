@@ -1,7 +1,13 @@
+import { redirect } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../App.css";
 function Form() {
+
+  const navigate = useNavigate();
+
     const handleClick=(event)=>{
         event.preventDefault();
+        navigate('/currencies');
     }
   return (
     <>

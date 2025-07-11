@@ -16,3 +16,14 @@
 .name, .email, .password, .button{
   margin: 10px
 }
+.table{
+border: 3px solid white;
+
+}
+.currency{
+display: flex;
+justify-content: center;
+}
+.table td{
+  border: 2px solid red;
+}

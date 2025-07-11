@@ -10,11 +10,24 @@ function CurrenciesPage() {
     };
     getData();
   }, []);
-  return <>{currencies.map((currency)=>
-  <div>
-    Currency: {currency[0]} rate: {currency[1]}
-  </div>
-  )}</>;
+  return (
+    <div className="currency">
+      <table className="table">
+        <thead>
+          <tr>
+          <th>Currency</th>
+          <th>Rate </th>
+        </tr>
+        </thead>
+      {currencies.map((currency) => (
+        <tr>
+          <td>{currency[0]}</td>
+          <td>{Number(currency[1]).toFixed(2)} </td>
+        </tr>
+      ))}
+      </table>
+    </div>
+  );
 }
 
 export default CurrenciesPage;
