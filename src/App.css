@@ -4,3 +4,15 @@
   padding: 2rem;
   text-align: center;
 }
+.input {
+  border: 3px solid whitesmoke;
+  height: 250px;
+  width: 350px;
+  padding: 30px;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 35%;
+}
+.name, .email, .password, .button{
+  margin: 10px
+}
